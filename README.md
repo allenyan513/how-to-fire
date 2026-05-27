@@ -23,40 +23,34 @@
 
 ## 阅读路径
 
-全书分成三个阶段，共 7 章，外加一份简短前言。建议按顺序阅读。
+全书分成三个部分，沿着"为什么 → 是什么 → 怎么做"的脉络展开。建议从前言开始按顺序读。
 
-### 前言
+[前言：这本书想做什么](book/00-introduction.md)
 
-0. [这本书想做什么](book/00-introduction.md)
+### 第一部分 · 财富认知（8 节）
 
-### 阶段一 · 认知
+为什么很多人努力工作多年却没有真正变富？这一部分用八节内容把直觉里的错位一节一节拆开。
 
-先把最容易被忽略的两个底层事实讲清楚。
+→ [进入第一部分](book/01-cognition/README.md)
 
-1. [收入不是财富](book/01-income-not-wealth.md)
-2. [复利与时间](book/02-compounding-and-time.md)
+### 第二部分 · 财富工具（10 节）
 
-### 阶段二 · 系统
+世界上的财富工具各是什么、为什么存在？用普通人视角重新讲一遍股票、ETF、黄金、比特币、国债、4% 法则等概念。
 
-再把认知落到日常的财富系统：现金流、消费、长期投资、资产配置。
+→ [进入第二部分](book/02-tools/README.md)
 
-3. [财富系统与消费陷阱](book/03-wealth-system.md)
-4. [长期投资习惯](book/04-long-term-investing.md)
-5. [ETF、指数基金与资产配置](book/05-etf-and-asset-allocation.md)
+### 第三部分 · 财富系统实践（7 节）
 
-### 阶段三 · FIRE 框架
+怎么把前两部分落到自己的生活？储蓄率、现金流、长期投资、资产配置、退休规划。
 
-最后理解财务自由、退休现金流和长期主义如何连接到人生选择权。
-
-6. [财务自由与 4% 法则](book/06-financial-freedom-and-4-percent.md)
-7. [长期主义与人生选择权](book/07-long-termism.md)
+→ [进入第三部分](book/03-practice/README.md)
 
 ## 快速入口
 
 如果你只有 30 分钟，建议先读：
 
-- [第 1 章 · 收入不是财富](book/01-income-not-wealth.md)
-- [第 2 章 · 复利与时间](book/02-compounding-and-time.md)
+- [收入不是财富](book/01-cognition/01-income-not-wealth.md)
+- [复利与时间](book/01-cognition/02-compounding-and-time.md)
 - [一次性投入和长期复利](examples/compound-interest.md)
 
 读完这三篇，你会先建立最重要的底层框架：收入不是财富本身，复利需要时间，示例数字只是帮助理解长期差距。
@@ -83,9 +77,9 @@
 ├── README.md
 ├── book/                 # 全书正文
 │   ├── 00-introduction.md
-│   ├── 01-income-not-wealth.md
-│   ├── 02-compounding-and-time.md
-│   └── ...
+│   ├── 01-cognition/     # 第一部分 · 财富认知（8 节）
+│   ├── 02-tools/         # 第二部分 · 财富工具（10 节）
+│   └── 03-practice/      # 第三部分 · 财富系统实践（7 节）
 ├── examples/             # 简化计算示例
 │   ├── compound-interest.md
 │   ├── monthly-investing.md
